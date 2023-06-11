@@ -7,7 +7,7 @@ import java.net.http.HttpClient;
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
 //logic for checking existence of words implemented
-public class QLessSolver {
+public class qLessSolver {
     public static boolean isWord(String word) {
         try {
             String encodedWord = URLEncoder.encode(word, StandardCharsets.UTF_8);
